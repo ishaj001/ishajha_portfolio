@@ -19,7 +19,7 @@ The hash router supports Home, About, Experience, Toolkit, Projects, three indiv
 ## Update content
 
 - Edit `data/profile.js` to change the introduction, role, interests, skills, timeline, project text, and project links.
-- `email`, `linkedin`, `github`, and the included `Isha_Jha_Data_Analyst.pdf` résumé are configured in `data/profile.js`. Update them there when they change.
+- `email`, `linkedin`, `github`, and the included `Isha_DataAnalyst_2yrs.pdf` résumé are configured in `data/profile.js`. Update them there when they change.
 - Project directory cards and detail pages are generated from the `projects` array. Each project has a GitHub source link and a live demo URL supplied by Isha.
 - Add original articles in `data/articles.js` as objects with `slug`, `title`, `date` (`YYYY-MM-DD`), optional `topic` and `description`, and a `body` array of paragraphs. The Notes index and article pages are generated from that list.
 - Replace the CSS project diagrams in `src/app.js` with screenshots when genuine screenshots are available. Current source project folders did not contain screenshots.

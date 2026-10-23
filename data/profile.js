@@ -7,7 +7,7 @@ export const profile = {
   introduction: "I like finding where a number came from, checking that it holds up, and explaining what it means.",
   direction: "I’m growing toward analytics and automation work that turns repeatable questions into useful, dependable tools.",
   interests: ["SQL & Python", "Reporting automation", "Data quality", "Useful data products"],
-  email: "ij167559@gmail.com", linkedin: "https://www.linkedin.com/in/ishajha07", github: "https://github.com/ishaj001", resume: "./Isha_Jha_Data_Analyst.pdf",
+  email: "ij167559@gmail.com", linkedin: "https://www.linkedin.com/in/ishajha07", github: "https://github.com/ishaj001", resume: "./Isha_DataAnalyst_2yrs.pdf",
 };
 
 export const skills = [
