@@ -89,7 +89,7 @@ function render() {
   try { time.textContent = new Intl.DateTimeFormat("en-IN",{timeZone:"Asia/Kolkata",hour:"2-digit",minute:"2-digit",hour12:false}).format(new Date()); }
   catch { time.textContent="IST"; }
  }
- document.title = route ? `${route === "projects" && slug ? active(projects.find(p=>p.slug===slug)) || "Project" : route === "notes" && slug ? articles.find(a=>a.slug===slug)?.title || "Note" : (route === "journey" ? "Experience" : route[0].toUpperCase()+route.slice(1))} — Isha Jha` : "Isha Jha — Data, made useful";
+ document.title = route ? `${route === "projects" && slug ? active(projects.find(p=>p.slug===slug)) || "Project" : route === "notes" && slug ? articles.find(a=>a.slug===slug)?.title || "Note" : (route === "journey" ? "Experience" : route[0].toUpperCase()+route.slice(1))}` : "Isha Jha";
  window.scrollTo({top:0,behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"instant":"smooth"});
  document.querySelector(".main-nav").classList.remove("open");
  document.querySelector(".menu-toggle").setAttribute("aria-expanded","false");
